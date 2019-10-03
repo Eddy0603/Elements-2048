@@ -1,5 +1,5 @@
 # Elements 2048
-My Chemistry Project.
+A Chemistry Project.
 
 When you download the file, unzip it and open the folder. Then proceed to open mainIndex.html.
 
