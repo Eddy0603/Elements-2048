@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" class="elePage">
+<head>
+  <meta charset="UTF-8">
+  <title>Carbon</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<br>
+
+<script type='text/javascript' >
+  function startTimer(duration, display) {
+    var timer = duration, minutes, seconds;
+    setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;
+
+        if (--timer < 0) {
+            timer = duration;
+            window.close();
+        }
+    }, 1000);
+  }
+
+  window.onload = function () {
+    display = document.querySelector('#time');
+    startTimer(69, display);
+  };
+</script>
+
+<body class="elePage">
+  <!-- partial:index.partial.html -->
+  <div class="container">
+    <div class="heading" align=center width=1080>
+      <h1 class="newEleTitle">New Element Discovered</h1>
+    </div>
+  </div>
+  
+  <br>
+  <center><div><h2 class="timerText">You've got <span id="time">01:09</span> to read it all.</h2></div></center>
+  <br>
+
+  <table width=1080 cellspacing="3" cellpadding="10" border="3" style="border:7px #3300ff solid;" align=center bgcolor=ffffff>
+    <tr style="color:#AA00FF;">
+      <td width=260 height><font size="5"><strong>
+        Discovery date
+      </td>
+      <td width=640><font size="5"><strong>
+        Prehistoric
+      </td>
+      <td width=180 rowspan="4">
+        <center><img src="src/6-Carbon.png" width="160" height="160" align="middle"></center>
+      </td>
+    </tr>  
+    <tr style="color:#AA00FF;">
+      <td width=260><font size="5"><strong>
+        Discovered by
+      </td>
+      <td width=640><font size="5"><strong>
+      </td>
+    </tr>
+    <tr style="color:#AA00FF;">
+      <td width=260><font size="5"><strong>
+        Origin of the Name
+      </td>
+      <td width=640><font size="5"><strong>
+        The name is derived from the Latin ‘carbo’, charcoal
+      </td>
+    </tr>  
+    <tr style="color:#AA00FF;">
+      <td width=260><font size="5"><strong>
+        Allotropes
+      </td>
+      <td width=640><font size="5"><strong>
+        Diamond, graphite, graphene, amorphous, fullerene
+      </td>
+    </tr>  
+  </table>
+  
+  <br>
+
+  <table width=1080 cellspacing="3" cellpadding="10" border="3" style="border:7px #3300ff solid;" align=center bgcolor=ffffff>
+    <tr style="color:#AA00FF;">
+      <td width=405><font size="5">
+        <strong>
+          Group
+        </strong>
+      </td>
+      <td width=135><font size="5">
+        4&nbsp;
+      </td>
+      <td width=405><font size="5">
+        <strong>
+          Melting point</strong>
+        </span>
+      </td>
+      <td width=135 rowspan="2"><font size="5">
+        Sublimes at 3825°C at RTP
+      </td>
+    </tr>
+    <tr style="color:#EE0000;" bgcolor=aaaaaa>
+      <td><font size="5">
+        <strong>
+          Period
+        </strong>
+      </td>
+      <td><font size="5">
+        2&nbsp;
+      </td>
+      <td><font size="5">
+        <strong>
+          Boiling point
+        </strong>
+      </td>
+    </tr>
+    <tr style="color:#AA00FF;">
+      <td><font size="5">
+        <strong>
+          Atomic number
+        </strong>
+      </td>
+      <td><font size="5">
+          6&nbsp;
+      </td>
+      <td><font size="5">
+        <strong>
+          Electron configuration
+        </strong>
+      </td>
+      <td><font size="5">
+        2, 4
+      </td>
+    </tr>
+    <tr style="color:#EE0000;" bgcolor=aaaaaa>
+      <td><font size="5">
+        <strong>
+          Relative atomic mass
+        </strong>
+      </td>
+      <td><font size="5">
+        <!-- Show upto 3 decimal places -->
+        12.011
+        &nbsp;
+      </td>
+      <td><font size="5">
+        <strong>
+          Density (g cm<sup>−3</sup>)
+        </strong>
+      </td>
+      <td><font size="5">
+        3.513 (diamond); 2.2 (graphite)&nbsp;
+      </td>
+    </tr>
+    <tr style="color:#AA00FF;">
+      <td><font size="5">
+        <strong>
+          Toxicity
+        </strong>
+      </td>
+      <td><font size="5">
+         Non-Toxic
+      </td>
+      <td><font size="5">
+        <strong>
+          Appearance
+        </strong>
+      </td>
+      <td><font size="3">
+        Diamond - Colourless
+        Graphite - black and shiny
+      </td>
+    </tr>
+    <tr style="color:#AA00FF;">
+      <td><font size="5">
+        <strong>
+          Smell
+        </strong>
+      </td>
+      <td><font size="5">
+      </td>
+      <td><font size="5">
+        <strong>
+          Radioactivity
+        </strong>
+      </td>
+      <td><font size="4">
+        Stable (Except <sup>14</sup>C)
+      </td>
+    </tr>
+  </table>
+
+  <br>
+
+  <table width=1080 cellspacing="3" cellpadding="10" border="3" style="border:7px #3300ff solid;" align=center bgcolor=ffffff>
+    <tr style="color:#AA00FF;">
+      <td width=1080><font size="5">
+        <strong>
+          Uses
+        </strong>
+      </td>
+    </tr>
+    <tr style="color:#AA00FF;">
+      <td width=1080><font size="5">
+        <ul>
+          <li>Hydrocarbons used as fuels</li>
+          <li>Impure carbon in the form of charcoal and coke is used in metal smelting</li>
+          <li>Graphite is used in pencils</li>
+          <li>Carbon fibre is very strong, yet lightweight, material</li>
+          <li>Used in tennis rackets, skis, fishing rods, rockets and aeroplanes</li>
+          <li>Industrial diamonds are used for cutting rocks and drilling</li>
+          <li>Carbon Nanotubes</li>
+        </ul>
+      </td>
+    </tr>
+    <tr style="color:#AA00FF;">
+      <td width=1080><font size="5">
+        <strong>
+          Abundance
+        </strong>
+      </td>
+    </tr>
+    <tr style="color:#AA00FF;">
+      <td width=1080><font size="5">
+        <ul> 
+          <li>Carbon is found in the sun and other stars, formed from the debris of a previous supernova</li>
+      	  <li>It is built up by nuclear fusion in bigger stars</li>
+          <li>Found in all living things</li>          
+        </ul>
+      </td>
+    </tr>
+  </table>
+</body>
+<footer>
+  <p align = center>
+    <strong>Created by Ethan, Julian and Edward.
+    </strong>
+  </p>
+</footer>
+</html>

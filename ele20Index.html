@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" class="elePage">
+<head>
+  <meta charset="UTF-8">
+  <title>Calcium</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<br>
+
+<script type='text/javascript' >
+  function startTimer(duration, display) {
+    var timer = duration, minutes, seconds;
+    setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;
+
+        if (--timer < 0) {
+            timer = duration;
+            window.close();
+        }
+    }, 1000);
+  }
+
+  window.onload = function () {
+    display = document.querySelector('#time');
+    startTimer(69, display);
+  };
+</script>
+
+<body class="elePage">
+  <!-- partial:index.partial.html -->
+  <div class="container">
+    <div class="heading" align=center width=1080>
+      <h1 class="newEleTitle">New Element Discovered</h1>
+    </div>
+  </div>
+  
+  <br>
+  <center><div><h2 class="timerText">You've got <span id="time">01:09</span> to read it all.</h2></div></center>
+  <br>
+
+  <table width=1080 cellspacing="3" cellpadding="10" border="3" style="border:7px #3300ff solid;" align=center bgcolor=ffffff>
+    <tr style="color:#AA00FF;">
+      <td width=260 height><font size="5"><strong>
+        Discovery date
+      </td>
+      <td width=640><font size="5"><strong>
+        1808
+      </td>
+      <td width=180 rowspan="4">
+        <center><img src="src/20-Calcium.png" width="160" height="160" align="middle"></center>
+      </td>
+    </tr>
+    <tr style="color:#AA00FF;">
+      <td width=260><font size="5"><strong>
+        Discovered by
+      </td>
+      <td width=640><font size="5"><strong>
+        Humphry Davy
+      </td>
+    </tr>
+    <tr style="color:#AA00FF;">
+      <td width=260><font size="5"><strong>
+        Origin of the Name
+      </td>
+      <td width=640><font size="5"><strong>
+        The name is derived from the Latin 'calx' meaning lime.
+      </td>
+    </tr>
+    <tr style="color:#AA00FF;">
+      <td width=260><font size="5"><strong>
+        Allotropes
+      </td>
+      <td width=640><font size="5"><strong>
+      </td>
+    </tr>
+  </table>
+
+  <br>
+
+  <table width=1080 cellspacing="3" cellpadding="10" border="3" style="border:7px #3300ff solid;" align=center bgcolor=ffffff>
+    <tr style="color:#AA00FF;">
+      <td width=405><font size="5">
+        <strong>
+          Group
+        </strong>
+      </td>
+      <td width=135><font size="5">
+        2&nbsp;
+      </td>
+      <td width=405><font size="5">
+        <strong>
+          Melting point</strong>
+        </span>
+      </td>
+      <td width=135><font size="5">
+        842°C
+      </td>
+    </tr>
+    <tr style="color:#EE0000;" bgcolor=aaaaaa>
+      <td><font size="5">
+        <strong>
+          Period
+        </strong>
+      </td>
+      <td><font size="5">
+          4&nbsp;
+      </td>
+      <td><font size="5">
+        <strong>
+          Boiling point
+        </strong>
+      </td>
+      <td><font size="5">
+        1484°C
+      </td>
+    </tr>
+    <tr style="color:#AA00FF;">
+      <td><font size="5">
+        <strong>
+          Atomic number
+        </strong>
+      </td>
+      <td><font size="5">
+          20&nbsp;
+      </td>
+      <td><font size="5">
+        <strong>
+          Electron configuration
+        </strong>
+      </td>
+      <td><font size="5">
+        2, 8, 8, 2
+      </td>
+    </tr>
+    <tr style="color:#EE0000;" bgcolor=aaaaaa>
+      <td><font size="5">
+        <strong>
+          Relative atomic mass
+        </strong>
+      </td>
+      <td><font size="5">
+        <!-- Show upto 3 decimal places -->
+        40.078
+        &nbsp;
+      </td>
+      <td><font size="5">
+        <strong>
+          Density (g cm<sup>−3</sup>)
+        </strong>
+      </td>
+      <td><font size="5">
+        1.54 &nbsp;
+      </td>
+    </tr>
+    <tr style="color:#AA00FF;">
+      <td><font size="5">
+        <strong>
+          Toxicity
+        </strong>
+      </td>
+      <td><font size="5">
+          Non-Toxic
+      </td>
+      <td><font size="5">
+        <strong>
+          Appearance
+        </strong>
+      </td>
+      <td><font size="5">
+        Silvery white soft metal, tarnishes easily
+      </td>
+    </tr>
+    <tr style="color:#AA00FF;">
+      <td><font size="5">
+        <strong>
+          Smell
+        </strong>
+      </td>
+      <td><font size="5">
+      </td>
+      <td><font size="5">
+        <strong>
+          Radioactivity
+        </strong>
+      </td>
+      <td><font size="5">
+        Stable except for <sup>40</sup>Ca, <sup>46</sup>Ca, <sup>48</sup>Ca
+      </td>
+    </tr>
+  </table>
+
+  <br>
+
+  <table width=1080 cellspacing="3" cellpadding="10" border="3" style="border:7px #3300ff solid;" align=center bgcolor=ffffff>
+    <tr style="color:#AA00FF;">
+      <td width=1080><font size="5">
+        <strong>
+          Uses
+        </strong>
+      </td>
+    </tr>
+    <tr style="color:#AA00FF;">
+      <td width=1080><font size="5">
+        <ul>
+          <li>Used as alloying agent.
+          <li>Found in limestones used for building.
+          <li>Used as plaster for builders and for setting bones by nurses.
+          <li>Main component of bone.
+      </td>
+    </tr>
+    <tr style="color:#AA00FF;">
+      <td width=1080><font size="5">
+        <strong>
+          Abundance
+        </strong>
+      </td>
+    </tr>
+    <tr style="color:#AA00FF;">
+      <td width=1080><font size="5">
+        <ul>
+          <li>Fifth most abundant metal in the Earth's crust</li>
+          <li>Found in hardwater as compounds and as limestones</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</body>
+<footer>
+  <p align = center>
+    <strong>Created by Ethan, Julian and Edward.
+    </strong>
+  </p>
+  
+</footer>
+</html>
